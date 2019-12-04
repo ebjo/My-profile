@@ -1,0 +1,112 @@
+body{
+	background-color: #FFD691;
+	color:#083D77;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+h1,h2{	
+	font-family: 'Noto Serif', serif;
+}
+a{
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #F87666;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color:#CC9361 
+}
+
+h1{
+	color: #072A7C ;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 600;
+}
+p{
+	font-weight: 400; 
+}
+
+
+.img-circle{
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px black;
+}
+
+.card{
+	background: #FFE8C1;
+	margin: 25px;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+
+	margin: 20px auto;
+
+}
+
+
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+  font-size: 25px;
+}
+
+.container{
+		margin: 30px auto;
+		width: 700px;
+}
+
+.list-inline i{
+		color: #CC9361;
+		font-size: 40px;
+}
+
+.list-inline i:hover{
+	color: orange;
+}
+
+.btn-blue{
+	background-color: orange;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+#introduction p{
+	margin: 40px;
+}
+
+@media (max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}	
+}
+
+@media (max-width: 540px){
+	.container{
+		width: 400px;
+	}
+}
+
+/*goes from biggest to smallest size or else it gets overwritten*/
+
+
